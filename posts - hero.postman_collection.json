@@ -11,12 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3006/posts",
-					"protocol": "http",
+					"raw": "https://intense-savannah-00206.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"intense-savannah-00206",
+						"herokuapp",
+						"com"
 					],
-					"port": "3006",
 					"path": [
 						"posts"
 					]
@@ -31,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"今天要刷牙\"\n}",
+					"raw": "{\n    \"name\": \"hello2\",\n    \"content\": \"123321\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -39,14 +40,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3005/todos",
-					"protocol": "http",
+					"raw": "https://intense-savannah-00206.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"intense-savannah-00206",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
-						"todos"
+						"posts"
 					]
 				}
 			},
@@ -67,14 +69,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3005/todos",
-					"protocol": "http",
+					"raw": "https://intense-savannah-00206.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"intense-savannah-00206",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
-						"todos"
+						"posts"
 					]
 				}
 			},
@@ -87,7 +90,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"今天要刷牙\"\n}",
+					"raw": "{\n    \"name\": \"今天要刷牙\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -95,14 +98,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3005/todos",
-					"protocol": "http",
+					"raw": "https://intense-savannah-00206.herokuapp.com/posts/626aaaa13ab9c1db0b540e4e",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"intense-savannah-00206",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
-						"todos"
+						"posts",
+						"626aaaa13ab9c1db0b540e4e"
 					]
 				}
 			},
@@ -111,26 +116,19 @@
 		{
 			"name": "刪除單筆貼文",
 			"request": {
-				"method": "PATCH",
+				"method": "DELETE",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"title\": \"今天要刷牙\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
-					"raw": "http://localhost:3005/todos",
-					"protocol": "http",
+					"raw": "https://intense-savannah-00206.herokuapp.com/posts/626aa9723ab9c1db0b540e37",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"intense-savannah-00206",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
-						"todos"
+						"posts",
+						"626aa9723ab9c1db0b540e37"
 					]
 				}
 			},
